@@ -371,17 +371,21 @@ elif menu == "Identifikasi Lingkungan Kegiatan":
 
 elif menu == "Tentang":
     st.subheader("Tentang Aplikasi")
-    st.write(
+    st.markdown(
         """
-        Kebisingan adalah bunyi yang tidak diinginkan dari usaha atau kegiatan dalam tingkat dan
-        waktu tertentu yang dapat menimbulkan gangguan kesehatan manusia dan kenyamanan lingkungan.
-        Tingkat kebisingan adalah ukuran energi bunyi yang dinyatakan dalam satuan Desibel (dB).
-        Baku tingkat kebisingan adalah batas maksimal tingkat kebisingan yang diperbolehkan dibuang
-        kepada lingkungan dari usaha atau kegiatan sehingga tidak menimbulkan gangguan kesehatan manusia
-        dan kenyamanan lingkungan. Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai
-        lingkungan berdasarkan berdasarkan peraturan Menteri ketenegakerjaan nomo 5 tahun 2018 tentang
-        keselamatan dan kesehatan kerja lingkungan dan keputusan Mentri lingkungan hidup Nomor: 
-        KEP-48/MENLH/11/1996 Tentang baku tingkat kebisingan.
+        Kebisingan adalah **bunyi yang tidak diinginkan** dari suatu usaha atau kegiatan dalam tingkat dan waktu tertentu 
+        yang dapat menimbulkan gangguan terhadap **kesehatan manusia** serta **kenyamanan lingkungan**.
+
+        Tingkat kebisingan adalah ukuran energi bunyi yang dinyatakan dalam satuan **Desibel (dB)**.  
+        **Baku tingkat kebisingan** adalah batas maksimal tingkat kebisingan yang diperbolehkan dibuang ke lingkungan 
+        dari usaha atau kegiatan, agar tidak menimbulkan gangguan kesehatan manusia dan kenyamanan lingkungan.
+
+        Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai lingkungan berdasarkan ketentuan resmi, yaitu:
+
+        - **Peraturan Menteri Ketenagakerjaan Nomor 5 Tahun 2018**  
+          Tentang Keselamatan dan Kesehatan Kerja Lingkungan.
+        - **Keputusan Menteri Lingkungan Hidup Nomor: KEP-48/MENLH/11/1996**  
+          Tentang Baku Tingkat Kebisingan.
         """
     )
 
@@ -389,29 +393,39 @@ elif menu == "Tentang":
 
     col1, col2 = st.columns([0.7, 0.3])
     with col1:
-        st.markdown("**Lingkungan Kerja / Umum**  \nSNI 7231:2009 - Metoda Pengukuran Intensitas Kebisingan di Tempat Kerja")
+        st.markdown(
+            "**Lingkungan Kerja / Umum**  \n"
+            "_SNI 7231:2009 - Metoda Pengukuran Intensitas Kebisingan di Tempat Kerja_"
+        )
     with col2:
         st.link_button("🌐 Lihat referensi", "https://jdih.kemnaker.go.id/asset/data_puu/Permen_5_2018.pdf")
 
     col3, col4 = st.columns([0.7, 0.3])
     with col3:
-        st.markdown("**Kawasan Khusus dan Lingkungan Kegiatan**  \nSNI 03-6386-2000 - Spesifikasi Tingkat Bunyi dan Waktu Dengung dalam Bangunan Gedung dan Perumahan")
+        st.markdown(
+            "**Kawasan Khusus dan Lingkungan Kegiatan**  \n"
+            "_SNI 03-6386-2000 - Spesifikasi Tingkat Bunyi dan Waktu Dengung dalam Bangunan Gedung dan Perumahan_"
+        )
     with col4:
         st.link_button("🌐 Lihat referensi", "https://ppkl.menlhk.go.id/website/filebox/723/190930165749Kepmen%20LH%2048%20Tahun%201996.pdf")
 
     st.subheader("👨‍💻 Anggota Tim Pengembang")
-    st.markdown("""
-    - Adisti Naisyafiani Putri  
-    - Dimas Nurhadyan Ardhi Wibowo  
-    - Mazaya Tuffahati Alhanuna Suhadi  
-    - Naura Karina Azizah  
-    - Satria Naufal Hibrizi  
-    """)
+    st.markdown(
+        """
+        - Adisti Naisyafiani Putri  
+        - Dimas Nurhadyan Ardhi Wibowo  
+        - Mazaya Tuffahati Alhanuna Suhadi  
+        - Naura Karina Azizah  
+        - Satria Naufal Hibrizi  
+        """
+    )
 
-    st.markdown("""
-    <br><hr>
-      Tugas Akhir Mata Kuliah Logika dan Pemrograman Komputer.
-      1F Pengolahan Limbah Industri - Politeknik AKA Bogor.
-      _Dikembangkan dengan Python & Streamlit._
-    """, unsafe_allow_html=True)
-
+    st.markdown(
+        """
+        <br><hr>
+        Tugas Akhir Mata Kuliah **Logika dan Pemrograman Komputer**  
+        1F Pengolahan Limbah Industri - Politeknik AKA Bogor  
+        _Dikembangkan dengan Python & Streamlit._
+        """,
+        unsafe_allow_html=True
+    )
