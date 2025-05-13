@@ -373,7 +373,9 @@ elif menu == "Tentang":
     st.subheader("Tentang Aplikasi")
     st.write(
         """
-        Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai lingkungan berdasarkan Standar Nasional Indonesia (SNI).
+        Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai lingkungan berdasarkan berdasarkan peraturan
+        Menteri ketenegakerjaan nomo 5 tahun 2018 tentang keselamatan dan kesehatan kerja lingkungan dan keputusan
+        Mentri lingkungan hidup Nomor : KEP-48/MENLH/11/1996  Tentang baku tingkat kebisingan
         """
     )
 
