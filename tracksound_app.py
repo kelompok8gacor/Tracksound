@@ -373,9 +373,15 @@ elif menu == "Tentang":
     st.subheader("Tentang Aplikasi")
     st.write(
         """
-        Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai lingkungan berdasarkan berdasarkan peraturan
-        Menteri ketenegakerjaan nomo 5 tahun 2018 tentang keselamatan dan kesehatan kerja lingkungan dan keputusan
-        Mentri lingkungan hidup Nomor : KEP-48/MENLH/11/1996  Tentang baku tingkat kebisingan
+        Kebisingan adalah bunyi yang tidak diinginkan dari usaha atau kegiatan dalam tingkat dan
+        waktu tertentu yang dapat menimbulkan gangguan kesehatan manusia dan kenyamanan lingkungan.
+        Tingkat kebisingan adalah ukuran energi bunyi yang dinyatakan dalam satuan Desibel (dB).
+        Baku tingkat kebisingan adalah batas maksimal tingkat kebisingan yang diperbolehkan dibuang
+        kepada lingkungan dari usaha atau kegiatan sehingga tidak menimbulkan gangguan kesehatan manusia
+        dan kenyamanan lingkungan. Aplikasi ini membantu mengevaluasi tingkat kebisingan di berbagai
+        lingkungan berdasarkan berdasarkan peraturan Menteri ketenegakerjaan nomo 5 tahun 2018 tentang
+        keselamatan dan kesehatan kerja lingkungan dan keputusan Mentri lingkungan hidup Nomor: 
+        KEP-48/MENLH/11/1996 Tentang baku tingkat kebisingan.
         """
     )
 
