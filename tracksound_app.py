@@ -64,9 +64,9 @@ menu = st.sidebar.selectbox(
     "Pilih Menu",
     [
         "Beranda",
-        "Kalkulator Lingkungan Kerja",
-        "Kalkulator Kawasan Khusus",
-        "Kalkulator Lingkungan Kegiatan",
+        "Identifikasi Lingkungan Kerja",
+        "Identifikasi Kawasan Khusus",
+        "Identifikasi Lingkungan Kegiatan",
         "Tentang",
     ],
 )
@@ -81,8 +81,8 @@ if menu == "Beranda":
     """)
     st.image("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdndHhjOGo3eHpjbGxxMGp1cm0wamU2MG4xbXV6bjdha3JtMXplZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5mYcsVrgxtxt7QUc55/giphy.gif", use_container_width=True)
 
-elif menu == "Kalkulator Lingkungan Kerja":
-    st.subheader("Kalkulator Kebisingan untuk Lingkungan Kerja")
+elif menu == "Identifikasi Lingkungan Kerja":
+    st.subheader("Identifikasi Kebisingan untuk Lingkungan Kerja")
     SNI_LIMIT = 85.0
 
     st.write("Masukkan satu atau beberapa nilai kebisingan (`dB`), pisahkan dengan koma (`,`) jika lebih dari satu data:")
@@ -178,8 +178,8 @@ elif menu == "Kalkulator Lingkungan Kerja":
     else:
         st.info("Silakan masukkan nilai tingkat kebisingan terlebih dahulu.")
 
-elif menu == "Kalkulator Kawasan Khusus":
-    st.subheader("Kalkulator Kebisingan untuk kawasan perdagangan, tempat rekreasi, bandara, stasiun, terminal, pelabuhan dan sejenisnya")
+elif menu == "Identifikasi Kawasan Khusus":
+    st.subheader("Identifikasi Kebisingan untuk kawasan perdagangan, tempat rekreasi, bandara, stasiun, terminal, pelabuhan dan sejenisnya")
     SNI_LIMIT = 70.0
 
     st.write("Masukkan satu atau beberapa nilai kebisingan (`dB`), pisahkan dengan koma (`,`) jika lebih dari satu data:")
@@ -274,8 +274,8 @@ elif menu == "Kalkulator Kawasan Khusus":
     else:
         st.info("Silakan masukkan nilai tingkat kebisingan terlebih dahulu.")
 
-elif menu == "Kalkulator Lingkungan Kegiatan":
-    st.subheader("Kalkulator Kebisingan untuk lingkungan rumah, sekolah, rumah sakit, tempat ibadah dan sejenisnya")
+elif menu == "Identifikasi Lingkungan Kegiatan":
+    st.subheader("Identifikasi Kebisingan untuk lingkungan rumah, sekolah, rumah sakit, tempat ibadah dan sejenisnya")
     SNI_LIMIT = 55.0
 
     st.write("Masukkan satu atau beberapa nilai kebisingan (`dB`), pisahkan dengan koma (`,`) jika lebih dari satu data:")
