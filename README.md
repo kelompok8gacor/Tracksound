@@ -1,7 +1,7 @@
 # **Tracksound**
 Sebuah project kampus mata kuliah Logika dan Pemrograman Komputer
 
-Aplikasi ini dibuat untuk mengevaluasi apakah tingkat kebisingan pada suatu lokasi telah memenuhi standar atau tidak dengan membandingkan data lapangan dengan SNI
+Aplikasi ini dibuat untuk mengevaluasi apakah tingkat kebisingan pada suatu lokasi telah memenuhi standar dengan membandingkan data lapangan dengan nilai ambang batas
 
 Dikembangkan oleh streamlit dan python
 
