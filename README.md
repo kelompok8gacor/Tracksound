@@ -6,6 +6,7 @@ Aplikasi ini dibuat untuk mengevaluasi apakah tingkat kebisingan pada suatu loka
 Dikembangkan oleh streamlit dan python
 
 anggota tim pengembang:
+
 -Adisti Naisyafiani Putri
 
 -Dimas Nurhadyan Ardhi Wibowo
