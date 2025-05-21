@@ -71,6 +71,7 @@ menu = st.sidebar.selectbox(
     ],
 )
 
+#Menu utama dari aplikasi
 if menu == "Beranda":
     st.subheader("Selamat Datang di TrackSound")
     st.write("""
@@ -81,6 +82,7 @@ if menu == "Beranda":
     """)
     st.image("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTdndHhjOGo3eHpjbGxxMGp1cm0wamU2MG4xbXV6bjdha3JtMXplZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5mYcsVrgxtxt7QUc55/giphy.gif", use_container_width=True)
 
+#Menu "Identifikasi Lingkungan Kerja"
 elif menu == "Identifikasi Lingkungan Kerja":
     st.subheader("Identifikasi Kebisingan untuk Lingkungan Kerja")
     SNI_LIMIT = 85.0
@@ -178,6 +180,7 @@ elif menu == "Identifikasi Lingkungan Kerja":
     else:
         st.info("Silakan masukkan nilai tingkat kebisingan terlebih dahulu.")
 
+#Menu "Identifikasi Kawasan Khusus"
 elif menu == "Identifikasi Kawasan Khusus":
     st.subheader("Identifikasi Kebisingan untuk kawasan perdagangan, tempat rekreasi, bandara, stasiun, terminal, pelabuhan dan sejenisnya")
     SNI_LIMIT = 70.0
@@ -274,6 +277,7 @@ elif menu == "Identifikasi Kawasan Khusus":
     else:
         st.info("Silakan masukkan nilai tingkat kebisingan terlebih dahulu.")
 
+#Menu "Identifikasi Lingkungan Kegiatan"
 elif menu == "Identifikasi Lingkungan Kegiatan":
     st.subheader("Identifikasi Kebisingan untuk lingkungan rumah, sekolah, rumah sakit, tempat ibadah dan sejenisnya")
     SNI_LIMIT = 55.0
@@ -369,6 +373,7 @@ elif menu == "Identifikasi Lingkungan Kegiatan":
     else:
         st.info("Silakan masukkan nilai tingkat kebisingan terlebih dahulu.")
 
+#Menu "tentang"
 elif menu == "Tentang":
     st.subheader("Tentang Aplikasi")
     st.markdown(
