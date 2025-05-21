@@ -7,7 +7,11 @@ Dikembangkan oleh streamlit dan python
 
 anggota tim pengembang:
 -Adisti Naisyafiani Putri
+
 -Dimas Nurhadyan Ardhi Wibowo
+
 -Mazaya Tuffahati Alhanuna Suhadi
+
 -Naura Karina Azizah
+
 -Satria Naufal Hibrizi
